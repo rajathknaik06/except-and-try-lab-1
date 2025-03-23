@@ -1,0 +1,18 @@
+""" Write a program to get the input as integer from the user. If the input is not a valid integer throw an exception error displaying
+
+'Invalid Integer'. If the given input is valid integer, display 'Valid Integer'
+
+Input format :
+Input contains a value
+
+Output format :
+The output displays 'Invalid Integer', if the input is not a valid integer.
+
+Otherwise, displays 'Valid Integer' if the input is valid integer.."""
+
+try:
+    x = int(input())
+    print('Valid Integer')
+except ValueError:
+    print('Invalid Integer')
+    
